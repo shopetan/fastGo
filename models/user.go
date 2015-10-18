@@ -4,7 +4,7 @@ import "strconv"
 
 // User defines an user
 type User struct {
-	IDD  int    `json:"id"`
+	ID   int    `json:"id"`
 	Name string `json:"name"`
 	Age  int    `json:"age"`
 }
