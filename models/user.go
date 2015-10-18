@@ -4,9 +4,9 @@ import "strconv"
 
 // User defines an user
 type User struct {
-	ID   int
-	Name string
-	Age  int
+	IDD  int    `json:"id"`
+	Name string `json:"name"`
+	Age  int    `json:"age"`
 }
 
 // NewUser creates user instance
